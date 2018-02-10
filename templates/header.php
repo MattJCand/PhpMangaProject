@@ -15,7 +15,7 @@
 		<!-- </div> -->
 		<nav class="menu majuscule">
 			<ul>
-				<li><a href="#">Accueil</a></li>
+				<li><a href="index.php">Accueil</a></li>
 				<li class="submenu-responsive"><a href="#">L'école <!-- <span>&#8744;</span> --></a>
 					<ul>
 						<li><a href="galerie.php">Galerie</a></li>
@@ -47,16 +47,16 @@
 					</ul>
 				</li>
 
-				<li><a href="#">Actualités</a></li>
-				<li><a href="#">événements</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="new.php">Actualités</a></li>
+				<li><a href="event.php">événements</a></li>
+				<li><a href="contact.php">Contact</a></li>
 			</ul>
 		</nav>
 
 	</header>
-	
 
 
 
 
-	
+
+
