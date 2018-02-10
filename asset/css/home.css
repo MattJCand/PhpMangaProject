@@ -6,3 +6,71 @@ body{
 h1{
   text-align: center;
 }
+
+#sliderFirst{
+  height: 200px;
+  width: 100%;
+  background-color: red;
+}
+
+#sectionCours{
+  height: 200px;
+  width: 100%;
+  background-color: blue;
+  columns: row;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: grey;
+  padding: 50px 0;
+}
+
+#dessin{
+ height: 200px;
+ width: 300px;
+ background-color: pink;
+}
+
+#japonais{
+  height: 200px;
+  width: 300px;
+  background-color: brown;
+}
+
+#manga{
+  height: 200px;
+  width: 300px;
+  background-color: black;
+}
+
+#carteMember{
+  height: 200px;
+  width: 100%;
+  background-color: yellow;
+  columns: row;
+}
+
+#social{
+  height: 500px;
+  width: 100%;
+  background-color: grey;
+  columns: row;
+}
+
+#actu{
+  height: 200px;
+  width: 100%;
+  background-color: purple;
+  columns: row;
+}
+
+#partner{
+  height: 200px;
+  width: 100%;
+  background-color: brown;
+  columns: row;
+
+}
