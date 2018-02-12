@@ -5,12 +5,22 @@
   font-family: sans-serif;
 }
 
+.container{
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  /*border-left:  1px solid red;
+  border-right : 1px solid red;*/
+  /*border: 0.5px solid*/
+  padding: 0 15px;
+}
+
+
 .majuscule{
   text-transform: uppercase;
 }
 
 header{
-  height: 50px;
   background: #CE852A;
   color: #fff;
   display: flex;
@@ -28,6 +38,11 @@ header label{
   display: none
 }
 
+.menu {
+  float: right;
+  z-index: 1000;
+}
+
 .menu ul {
   background: #ce852a;
   display: flex;
@@ -39,9 +54,10 @@ header label{
 }
 .menu a {
   display: block;
-  padding: 16px 20px;
+  padding: 15px;
   color: #fff;
   text-decoration: none;
+  font-size: 11px
 }
 
 .menu a:hover{
@@ -51,10 +67,28 @@ header label{
 .menu ul li:hover ul{
   display: block;
   position:absolute;
+  z-index: 1000
 }
 .submenu-responsive{
   display: none
 }
+
+
+
+.bloc-logo-nav{
+  display: inline-block;
+  width: 200px;
+  margin-top: 10px
+}
+
+.bloc-logo-nav a > img{
+  width: 100%;
+}
+
+
+
+
+
 /*
 .menu a span{
   display: none;
@@ -65,35 +99,34 @@ header label{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media  (max-width: 768px) {
-  header label{
-    display: block;
-    margin-right: 15px
+  body{
+    overflow: hidden;
   }
+
+  .container{
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    
+  }
+
+  header label{
+    display: inline-block;
+    float:right ;
+  }
+
+  
 
   .menu {
     position: absolute;
-    top:50px;
+    top:40px;
     left: 0;
     width: 100%;
-    transform: translateX(-100%);
-    transition: all 0.3s
-  }
+    transform: translateX(100%);
+    transition: all 0.3s;
+
+    }
   .menu ul {
     display: block;
     background: #555;
