@@ -78,7 +78,7 @@
 
 
 
-
+/* sectionCours */
 #sectionCours{
   background-color: lightgrey;
 }
@@ -98,24 +98,62 @@
   background-color: red
 }
 
+/*****************/
 
 
 
 
+/* sectionCarteMembre */
 
-
-
-
-
-#social{
-  height: 500px;
+#sectionCarteMembre{
+  background-color: rgba(204, 60, 76, 1); 
   width: 100%;
-  background-color: grey;
+  padding: 50px 0;
+  height: 300px
 }
 
-#actu{
-  height: 400px;
+/**********************/
+
+
+
+
+
+
+/* sectionActu */
+
+#sectionActu{
   width: 100%;
-  background-color: purple;
-  text-align: center
+  padding: 50px 0;
+  background-color: #fff;
+  text-align: center;
 }
+
+
+/**************/
+
+
+
+
+
+
+
+
+/* sectionPartenaire */
+
+#sectionPartenaire{
+  height: 300px;
+  width: 100%;
+  background-color: rgba(0,150,0,0.7);
+  padding: 50px 0;
+}
+
+
+
+/*.responsive .partenaire-kaze{
+  background: url('../img/logo-kaze.png');
+}
+.responsive .partenaire-kaze{
+  background: url('../img/logo-kaze.png');
+}*/
+/**************/
+

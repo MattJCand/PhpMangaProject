@@ -1,7 +1,7 @@
-	<!-- <footer>
+	<footer>
 		<div class="container">
 
-			<div>
+			<div class="footer-bloc-nav">
 				<div class="footer-block-ecole">
 					<p class="bold">Ecole</p>
 					<ul>
@@ -13,9 +13,39 @@
 					
 					
 				</div>
-				<div></div>
-				<div></div>
-				<div></div>
+				<div class="footer-block-ecole">
+					<p class="bold">Ecole</p>
+					<ul>
+					
+						<li><a href="">Galerie</a></li>
+						<li><a href="">A propos</a></li>
+						<li><a href="">Nos partenaire</a></li>
+					</ul>
+					
+					
+				</div>
+				<div class="footer-block-ecole">
+					<p class="bold">Ecole</p>
+					<ul>
+					
+						<li><a href="">Galerie</a></li>
+						<li><a href="">A propos</a></li>
+						<li><a href="">Nos partenaire</a></li>
+					</ul>
+					
+					
+				</div>
+				<div class="footer-block-ecole">
+					<p class="bold">Ecole</p>
+					<ul>
+					
+						<li><a href="">Galerie</a></li>
+						<li><a href="">A propos</a></li>
+						<li><a href="">Nos partenaire</a></li>
+					</ul>
+					
+					
+				</div>
 			</div>
 
 			<div>
@@ -30,7 +60,7 @@
 
 	</footer>
 
- -->
+
 
 
 

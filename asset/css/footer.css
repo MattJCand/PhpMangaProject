@@ -12,3 +12,12 @@ footer .container{
 .bold{
   font-weight: bold;
 }
+
+.footer-block-ecole{
+
+}
+
+.footer-bloc-nav{
+	justify-content: space-around;
+	display: flex
+}

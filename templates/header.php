@@ -6,8 +6,9 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
 	<!-- Slick -->
 	<link rel="stylesheet" type="text/css" href="asset/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="asset/slick/slick-theme.css"/>
+  	<link rel="stylesheet" type="text/css" href="asset/slick/slick-theme.css"/>
   	<link rel="stylesheet" href="asset/css/style.css">
+  	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 </head>
 <body>
@@ -34,7 +35,7 @@
 					<li class="submenu"><a href="#">L'école <!-- <span>&#8744;</span> --></a>
 						<ul>
 							<li><a href="galerie.php">Galerie</a></li>
-							<li><a href="about.php">A propose</a></li>
+							<li><a href="about.php">A propos</a></li>
 							<li><a href="partner.php">Nos partenaires</a></li>
 						</ul>
 					</li>
@@ -57,7 +58,7 @@
 
 					<li><a href="new.php">Actualités</a></li>
 					<li><a href="event.php">événements</a></li>
-					<li><a href="contact.php">Contact</a></li>
+					<li><a class="lien-contact" href="contact.php">Contact</a></li>
 				</ul>
 			</nav>
 		</div>

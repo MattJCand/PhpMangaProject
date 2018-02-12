@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Roboto' ,sans-serif;
 }
 
 .container{
   width: 100%;
-  max-width: 1024px;
+  max-width: 1440px;
   margin: auto;
   /*border-left:  1px solid red;
   border-right : 1px solid red;*/
@@ -19,10 +19,13 @@
 .majuscule{
   text-transform: uppercase;
 }
+.text-center{
+  text-align: center
+}
 
 header{
-  background: #CE852A;
-  color: #fff;
+  background: #fff;
+  color: #231f20;
   display: flex;
   justify-content: flex-end;
   align-items: center
@@ -44,7 +47,7 @@ header label{
 }
 
 .menu ul {
-  background: #ce852a;
+  background: #fff;
   display: flex;
   list-style:none;
 }
@@ -52,12 +55,16 @@ header label{
 .menu ul ul {
   display: none;
 }
+
+.menu a.lien-contact{
+  padding-right: 0px  
+}
 .menu a {
   display: block;
   padding: 15px;
-  color: #fff;
+  color: #231f20;
   text-decoration: none;
-  font-size: 11px
+  font-size: 14px
 }
 
 .menu a:hover{
@@ -77,13 +84,14 @@ header label{
 
 .bloc-logo-nav{
   display: inline-block;
-  width: 200px;
-  margin-top: 10px
+  width: 175px;
+  margin-top: 14px;
 }
 
 .bloc-logo-nav a > img{
   width: 100%;
 }
+
 
 
 
@@ -101,7 +109,7 @@ header label{
 
 @media  (max-width: 768px) {
   body{
-    overflow: hidden;
+    overflow-x : hidden;
   }
 
   .container{
