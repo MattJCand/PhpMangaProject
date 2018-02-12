@@ -48,12 +48,15 @@
 				</div>
 			</div>
 
-			<div>
-				
+			<div class="footer-bloc-rs">
+				<a href=""><img src="" alt=""></a>
+				<a href=""><img src="" alt=""></a>
+				<a href=""><img src="" alt=""></a>
 			</div>
 			
-			<div>
-				
+			<div class="footer-bloc-ml">
+				<div></div>
+				<div></div>
 			</div>
 
 		</div>
