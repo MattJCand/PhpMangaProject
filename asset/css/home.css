@@ -1,75 +1,121 @@
-body{
-  margin: 0;
-  padding: 0;
-}
 
-h1{
-  text-align: center;
-}
 
-#sliderFirst{
-  height: 200px;
+
+/**/
+
+
+/* BANNIERE */
+
+#caroussel-banniere{
   width: 100%;
-  background-color: red;
+  background-color: rgba(0,0,0,0.3);
+
 }
+
+/*#caroussel-banniere .container{
+  max-width: 1080px;
+  width: 100%;
+  margin: auto;
+}*/
+
+.slick-dots {
+    bottom: 15px;
+}
+
+.slick-dots li button:before {
+    color: #fff;
+}
+
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+
+.slick-next,.slick-prev{
+  z-index: 2
+}
+
+.slick-next {
+  right: 15px;
+}
+.slick-prev{
+  left: 15px;
+}
+
+.banniere-japonnais{
+  background: url('../img/banniere1.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/*
+.bloc-banniere{
+  height: 300px;
+}
+*/
+.bloc-banniere .container div{
+  height: 300px;
+  width: 50%;
+  display: table-cell;
+  color: #fff
+}
+
+
+
+.bloc-titre-banniere h1{
+  
+}
+
+
+.bloc-texte-banniere p{
+
+}
+
+
+/**************/
+
+
+
+
+
 
 #sectionCours{
+  background-color: lightgrey;
+}
+
+#sectionCours .container{
+  background-color: lightgrey;
+    display: flex;
+      justify-content: space-around
+
+
+}
+
+#sectionCours .container div{
   height: 200px;
-  width: 100%;
-  background-color: blue;
-  columns: row;
+  width: 200px;
+  margin: 15px 10px;
+  background-color: red
 }
 
-.container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: grey;
-  padding: 50px 0;
-}
 
-#dessin{
- height: 200px;
- width: 300px;
- background-color: pink;
-}
 
-#japonais{
-  height: 200px;
-  width: 300px;
-  background-color: brown;
-}
 
-#manga{
-  height: 200px;
-  width: 300px;
-  background-color: black;
-}
 
-#carteMember{
-  height: 200px;
-  width: 100%;
-  background-color: yellow;
-  columns: row;
-}
+
+
+
+
 
 #social{
   height: 500px;
   width: 100%;
   background-color: grey;
-  columns: row;
 }
 
 #actu{
   height: 400px;
   width: 100%;
   background-color: purple;
-}
-
-#partner{
-  height: 200px;
-  width: 100%;
-  background-color: brown;
-  columns: row;
-
+  text-align: center
 }
