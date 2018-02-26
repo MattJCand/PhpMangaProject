@@ -1,15 +1,15 @@
-$('.fade').slick({
-	dots: true,
-	infinite: true,
-	speed: 1000,
-	fade: true,
-	cssEase: 'linear',
-	autoplay: true,
-	autoplaySpeed: 2000,
-	pauseOnFocus: false,
-	arrows: false
+// $('.fade').slick({
+// 	dots: true,
+// 	infinite: true,
+// 	speed: 1000,
+// 	fade: true,
+// 	cssEase: 'linear',
+// 	autoplay: true,
+// 	autoplaySpeed: 2000,
+// 	pauseOnFocus: false,
+// 	arrows: false
 
-});
+// });
 
 
 $('.responsive').slick({

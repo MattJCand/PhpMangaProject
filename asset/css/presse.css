@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
 }
-.bloc-actu{
+.bloc-presse{
   /*display: flex;*/
   /*justify-content: space-between;*/
   /*justify-content: center;*/
@@ -12,19 +12,19 @@
   
 }
 
-.bloc-img-actu{
+.bloc-img-presse{
   width: 25%;
   float: left;
   margin:auto;
 }
 
-.bloc-img-actu img{
+.bloc-img-presse img{
   display: block;
   max-width: 250px;
   /*margin:15px auto;*/
 }
 
-.bloc-description-actu{
+.bloc-description-presse{
   width: 70%;
   padding: 20px 15px 10px 5px;
   float: left;
@@ -34,12 +34,12 @@
 }
 .clear{clear: both;}
 
-.bloc-description-actu h4{
+.bloc-description-presse h4{
   margin-bottom: 10px;
   /*font-weight: normal*/
 }
 
-.bloc-description-actu p.date-actu{
+.bloc-description-presse p.date-presse{
   margin-top: 50px;
   float: right;   
 }
@@ -58,7 +58,7 @@
 
 
 @media (max-width: 1050px) {
-  .bloc-img-actu{
+  .bloc-img-presse{
   width: 30%;
   float: left;
   margin:auto;
@@ -69,24 +69,24 @@
  
 
   
-  .bloc-actu{
+  .bloc-presse{
     padding: 10px 0;
   }
-  .bloc-img-actu, .bloc-description-actu{
+  .bloc-img-presse, .bloc-description-presse{
     float: none;  
   
   }
     
-  .bloc-description-actu{
+  .bloc-description-presse{
     padding: 20px 15px;
     width: 100%
   }
 
-  .bloc-description-actu h4{
+  .bloc-description-presse h4{
       text-align: center;
   }
 
-  .bloc-description-actu p.date-actu{
+  .bloc-description-presse p.date-presse{
   margin-top: 25px;
      
 }
