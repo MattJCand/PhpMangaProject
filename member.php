@@ -1,6 +1,10 @@
 
 <?php include "templates/header.php"; ?>
 
-<h1>La carte Membre</h1>
+<main>
+	<h1 class="text-center majuscule">La carte Membre</h1>
+
+
+</main>
 
 <?php include "templates/footer.php"; ?>

@@ -37,10 +37,7 @@ h2{
 #banniereCours  h1{
   font-size: 45px
 }
-#sectionDescriptionCours{
-    
-    margin: 50px 0;
-}
+
 
 
 #sectionDescriptionCours .container .bloc-description{
@@ -54,6 +51,11 @@ h2{
   width: 25%;
   /*border: 1px solid;*/
 }
+#sectionDescriptionCours .bloc-description-partie img{
+  width: 100px;
+  /*border: 1px solid;*/
+}
+
 
 #sectionDescriptionCours .bloc-description-partie p{
   margin-top: 20px;
@@ -69,7 +71,6 @@ h2{
 
 
 #sectionHoraireCours{
-  padding:  50px 0;
   width: 100%;
   background-color: #333333;
   color: #fff;

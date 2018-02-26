@@ -37,19 +37,19 @@
     <div class="bloc-horaire">
       <div class="bloc-horaire-partie">
         <h4 class="majuscule">Lundi</h4>
-        <img class="img-adapte" src="asset/img/horloge.png" alt="horloge">
+        <img class="" src="asset/img/horloge.png" alt="horloge">
         <p>14H - 18H</p>
         <p>Sur réservation</p>
       </div>
       <div class="bloc-horaire-partie">
         <h4 class="text-center majuscule">Mercredi</h4>
-        <img class="img-adapte" src="asset/img/horloge.png" alt="horloge">
+        <img class="" src="asset/img/horloge.png" alt="horloge">
         <p>14H - 15H</p>
         <p>Enfants (12 - 15 ans) </p>
       </div>
       <div class="bloc-horaire-partie">
         <h4 class="text-center majuscule">Vendredi</h4>
-        <img class="img-adapte" src="asset/img/horloge.png" alt="horloge">
+        <img class="" src="asset/img/horloge.png" alt="horloge">
         <p>19H30 - 21H</p>
         <p>Ado-adultes(16 ans et +)</p>
       </div>
