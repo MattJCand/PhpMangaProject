@@ -1,35 +1,101 @@
-// DESKTOP
+/*DESKTOP*/
+h2{
 
-.bannerCours{
+    margin-bottom: 30px
+}
+
+
+#banniereCours{
+  height: 300px;
+  width: 100%;
+  background: url('../img/japon_banniere.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #fff;
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  height: 200px;
+}
+
+
+#banniereCours  h1{
+  font-size: 45px
+}
+#sectionDescriptionCours{
+    
+    margin: 50px 0;
+}
+
+
+#sectionDescriptionCours .container .bloc-description{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+#sectionDescriptionCours .bloc-description-partie{
+  width: 25%;
+  /*border: 1px solid;*/
+}
+
+#sectionDescriptionCours .bloc-description-partie p{
+  margin-top: 20px;
+  text-align: justify
+}
+
+
+
+
+
+
+
+
+
+#sectionHoraireCours{
+  padding:  50px 0;
   width: 100%;
-  background-color: red;
+  background-color: #333333;
+  color: #fff;
+
 }
 
-.contentCours{
-  height: 200px;
+
+
+
+#sectionHoraireCours .bloc-horaire{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#sectionHoraireCours .bloc-horaire-partie{
+  width: 22%
+}
+
+#sectionHoraireCours .bloc-horaire .bloc-horaire-partie img{
+  margin: 30px 0
+}
+
+#sectionHoraireCours .bloc-horaire .bloc-horaire-partie p{
+  margin-bottom: 30px
+}
+}
+
+
+
+/************************/
+
+#sectionSliderCours{
   width: 100%;
-  background-color:pink;
-}
+  background-color: #fff;
+  height: 300px;
+  margin-bottom:50px
 
-.horaireCours{
-  height: 200px;
-  width: 100%;
-  columns: row;
-  background-color: grey;
-}
-
-.SliderCours{
-  height: 200px;
-   width: 100%;
-  columns: row;
-  background-color: green;
 }
 
 
-// TABLETTE
+ /*TABLETE*/
 
-// MOBILE
+ /*MOBILE*/

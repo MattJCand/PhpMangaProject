@@ -1,32 +1,70 @@
-// DESKTOP
-
-.sectionActu{
-  height: 200px;
-  width: 400px;
-  columns: row;
-  border:3px solid green;
-  margin-top: 20%;
+*{
+  box-sizing: border-box;
+}
+.bloc-actu{
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+  /*justify-content: center;*/
+  background-color: #cecece;
+  margin: 20px 0;
+  clear: both;
+  
 }
 
-.containerActu{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 5%;
+.bloc-img-actu{
+  /*width: 30%;*/
+  float: left;
+}
+.bloc-img-actu img{
+  display: block;
+  max-width: 300px;
 }
 
-.imageActu{
- height: 200px;
- width: 200px;
- border:3px solid pink;
+.bloc-description-actu{
+  width: 70%;
+  padding: 15px 15px;
+  float: left;
+    position: relative;
+
+}
+.clear{clear: both;}
+
+.bloc-description-actu h4{
+  margin-bottom: 10px;
+  /*font-weight: normal*/
 }
 
-.actuDescription{
- height: 200px;
- width: 500px;
-  border:3px solid orange;
+.bloc-description-actu p.date-actu{
+    display: inline-block;
+    position: absolute;
+    bottom: -40px;
+    right: 15px;
 }
 
-// TABLETTE
 
-// MOBILE
+.description-actu-responsive{
+    display: none;
+  }
+
+
+
+
+/************************
+
+
+
+*************************/
+
+
+@media (max-width: 900px) {
+  .description-actu-responsive{
+    display: block;
+  }
+
+   .description-actu{
+    display: none;
+  }
+  
+  
+}
+

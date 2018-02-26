@@ -1,5 +1,8 @@
+.bold{
+  font-weight: bolder;
+}
 footer{
-	height: 300px;
+	padding: 40px 0 10px;
 	width: 100%;
 	background: #333333;
 	color: #fff;
@@ -9,15 +12,124 @@ footer .container{
 	background-color: inherit;
 }
 
-.bold{
-  font-weight: bold;
-}
 
-.footer-block-ecole{
 
-}
 
 .footer-bloc-nav{
-	justify-content: space-around;
+	justify-content: space-between;
 	display: flex
+}
+
+footer .footer-text-contact{
+	text-align: right
+}
+
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+
+footer a.lien-footer{
+	font-size: 12px
+}
+footer a:hover{
+	color: grey;
+}
+
+footer li{
+	list-style-type: none
+}
+
+
+/*******************/
+
+
+
+footer .footer-bloc-rs{
+	display: flex;
+	justify-content: center;
+}
+
+footer .footer-bloc-rs a {
+	width: 35px;
+	height: 35px;
+	margin: 0 20px;
+
+}
+
+
+footer .footer-adresse-tablette{
+	display: none;
+}
+
+footer .footer-adresse-desktop{
+	text-align: center
+}
+
+
+
+
+/*************/
+
+.footer-bloc-ml{
+	
+	margin-top: 30px;
+	align-items: flex-end;
+}
+
+/*************/
+
+footer .container .footer-bloc-mlsig{
+	margin-top: 20px;
+	display: flex;
+	justify-content:space-between;
+}
+
+footer .container .footer-bloc-mlsig div{
+	width: 50%
+}
+
+footer .footer-bloc-mlsig .signature{
+	text-align: right;
+}
+
+
+/*****************************
+
+	VERSION TABLETTE
+
+******************************/
+@media (max-width: 768px) {
+
+footer .footer-adresse-desktop{
+		display: none
+	}
+footer .footer-adresse-tablette{
+		display: block;
+		text-align: center
+	}
+	
+}
+
+
+
+
+
+/*Version Mobile*/
+@media (max-width: 425px) {
+
+	footer .container .footer-bloc-mlsig{
+		margin-top: 30px;
+		display: block;
+		text-align: center
+	}
+
+	footer .container .footer-bloc-mlsig div{
+		width: 100%
+	}
+	
+	footer .footer-bloc-mlsig .signature{
+		text-align: center;
+		margin-top: 20px
+	}
 }

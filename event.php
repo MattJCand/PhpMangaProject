@@ -1,6 +1,16 @@
 
 <?php include "templates/header.php"; ?>
 
-<h1>Page Evenement'</h1>
+
+
+<main>
+<div class="container">
+	
+		<h1>Evenement</h1>
+
+</div>
+
+
+</main>
 
 <?php include "templates/footer.php"; ?>

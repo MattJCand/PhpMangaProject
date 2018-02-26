@@ -16,54 +16,69 @@
 	<header>
 		<div class="container">
 			<div class="bloc-logo-nav">
-				<a href="index.php"><img src="asset/img/logo_final.png" alt="logo"></a>
+				<a href="index.php">
+					<img class="logo-desktop" src="asset/img/logo_final.png" alt="logo">
+					<img class="logo-tablette" src="asset/img/logo_3.png" alt="">
+					<img class="logo-mobile" src="asset/img/logo_mobile.png" alt="">
+				</a>
 			</div>
 	<!-- 		<div class="btn-menu-block">	 -->	
-	 			<input type="checkbox" id="btn-menu">
+	 			<input type="checkbox" id="btn-menu" checked>
 				<label for="btn-menu" >&#9776;</label>
 			<!-- </div> -->
 			<nav class="menu majuscule">
-				<ul>
+				<ul class="text-center">
 					<li><a href="index.php">Accueil</a></li>
-					<li class="submenu-responsive"><a href="#">L'école <!-- <span>&#8744;</span> --></a>
-						<ul>
-							<li><a href="galerie.php">Galerie</a></li>
-							<li><a href="about.php">A propose</a></li>
-							<li><a href="partner.php">Nos partenaires</a></li>
-						</ul>
-					</li>
-					<li class="submenu"><a href="#">L'école <!-- <span>&#8744;</span> --></a>
+					<li class="submenu-responsive"><a href="#">L'école</a>
 						<ul>
 							<li><a href="galerie.php">Galerie</a></li>
 							<li><a href="about.php">A propos</a></li>
 							<li><a href="partner.php">Nos partenaires</a></li>
 						</ul>
 					</li>
-					<li class="submenu-responsive"><a href="#">Cours <!-- <span>&#8744;</span> --></a>
+					<li class="submenu"><a href="">L'école</a>
+						<ul>
+							<li><a href="galerie.php">Galerie</a></li>
+							<li><a href="about.php">A propos</a></li>
+							<li><a href="partner.php">Nos partenaires</a></li>
+						</ul>
+					</li>
+					<li class="submenu-responsive"><a href="#">Cours</a>
 						<ul>
 							<li><a href="manga.php">Manga</a></li>
 							<li><a href="draw.php">Dessin</a></li>
-							<li><a href="japan.php">Japonnais</a></li>
+							<li><a href="japan.php">Japonais</a></li>
 							<li><a href="member.php">la carte membre</a></li>
 						</ul>
 					</li>
-					<li class="submenu"><a href="#">Cours<!-- <span>&#8744;</span> --></a>
+					<li class="submenu">
+						<a href="#">
+							Cours
+						</a>
 						<ul>
 							<li><a href="manga.php">Manga</a></li>
 							<li><a href="draw.php">Dessin</a></li>
-							<li><a href="japan.php">Japonnais</a></li>
+							<li><a href="japan.php">Japonais</a></li>
 							<li><a href="member.php">la carte membre</a></li>
 						</ul>
 					</li>
 
-					<li><a href="new.php">Actualités</a></li>
+				
+					<li class="submenu-responsive"><a href="#">Actualités</a></li>
+					<li class="submenu-responsive"><a href="#">Presse</a>
+					<li class="submenu"><a href="actu.php">Actualités</a>
+						<ul>
+							<li><a href="presse.php">Presse</a></li>
+							
+						</ul>
+					</li>
 					<li><a href="event.php">événements</a></li>
 					<li><a class="lien-contact" href="contact.php">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
-
+	<div class="spacer"></div>
 
 
 

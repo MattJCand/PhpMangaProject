@@ -1,6 +1,5 @@
 
 
-
 /**/
 
 
@@ -8,7 +7,7 @@
 
 #caroussel-banniere{
   width: 100%;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.7);
 
 }
 
@@ -42,33 +41,35 @@
   left: 15px;
 }
 
-.banniere-japonnais{
+#caroussel-banniere{
+  padding: 0
+}
+
+.banniere-japonnais, .banniere-manga, .banniere-dessin{
   background: url('../img/banniere1.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
-/*
-.bloc-banniere{
-  height: 300px;
-}
-*/
-.bloc-banniere .container div{
-  height: 300px;
-  width: 50%;
-  display: table-cell;
-  color: #fff
+
+.bloc-banniere .container{
+  display: flex;
+  justify-content: space-around;
 }
 
+.bloc-banniere  div{
+  height: 300px;
+  color: #fff;
+  display: flex;
+  align-items: center
+}
 
+.bloc-titre-banniere, .bloc-texte-banniere{
+  width: 33%;
+}
 
 .bloc-titre-banniere h1{
-  
-}
-
-
-.bloc-texte-banniere p{
-
+  font-size: 50px
 }
 
 
@@ -80,22 +81,56 @@
 
 /* sectionCours */
 #sectionCours{
-  background-color: lightgrey;
+  /*background-color: lightgrey;*/
+  font-size: 40px;
 }
 
 #sectionCours .container{
-  background-color: lightgrey;
-    display: flex;
-      justify-content: space-around
-
+  /*background-color: lightgrey;*/
+  display: flex;
+  justify-content: space-around
 
 }
 
 #sectionCours .container div{
   height: 200px;
   width: 200px;
-  margin: 15px 10px;
-  background-color: red
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+
+}
+
+#sectionCours .container #dessin{
+  background: url('../img/dessin.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#sectionCours .container #japonais{
+  background: url('../img/japon.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#sectionCours .container #manga{
+  background: url('../img/manga.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#sectionCours .container a{
+  text-decoration: none;
+  color: white;
+  padding: 30px
+/*  width:200px;
+*/  /*min-width: 200px*/
+}
+
+#sectionCours .container div:hover{
+    transform: scale(1.04);
 }
 
 /*****************/
@@ -106,10 +141,29 @@
 /* sectionCarteMembre */
 
 #sectionCarteMembre{
-  background-color: rgba(204, 60, 76, 1); 
-  width: 100%;
-  padding: 50px 0;
-  height: 300px
+  /*height: 300px;*/
+ /* 
+  background: -moz-linear-gradient(left, #ca3342 0%, #b12742 100%); 
+  background: -webkit-linear-gradient(left, #ca3342 0%,#b12742 100%);  
+  background: linear-gradient(to right, #ca3342 0%,#b12742 100%); 
+  */
+  background-color: #333333;
+/*  padding: 30px 0;
+*/  color: #fff;
+}
+
+#sectionCarteMembre .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#sectionCarteMembre .container .bloc-membre-img{
+  width: 20%
+}
+#sectionCarteMembre .container .bloc-membre-text{
+  width: 60%;
 }
 
 /**********************/
@@ -123,11 +177,14 @@
 
 #sectionActu{
   width: 100%;
-  padding: 50px 0;
+  /*padding: 50px 0;*/
   background-color: #fff;
   text-align: center;
 }
 
+#sectionActu .container h2{
+  margin-bottom: 30px
+}
 
 /**************/
 
@@ -141,13 +198,19 @@
 /* sectionPartenaire */
 
 #sectionPartenaire{
-  height: 300px;
   width: 100%;
-  background-color: rgba(0,150,0,0.7);
-  padding: 50px 0;
+  /*padding: 50px 0;*/
 }
 
+.bloc-partenaire{
+  width: 100px;
+  margin:15px;
+}
 
+ #sectionPartenaire .bloc-partenaire > img{
+  width: 100%;
+  height: auto
+ }
 
 /*.responsive .partenaire-kaze{
   background: url('../img/logo-kaze.png');
@@ -157,3 +220,129 @@
 }*/
 /**************/
 
+
+
+
+/***************************
+
+      VERSION TABLETTE
+
+****************************/
+
+@media (max-width: 768px) {
+  
+  h3{
+    font-size: 18px
+  }
+  
+  section{
+    padding: 15px 0
+  }
+
+  header .container{
+    
+  }
+
+  .bloc-banniere .container{
+    display: flex;
+    justify-content: initial;
+    flex-flow: column;
+  }
+  
+  .bloc-titre-banniere h1{
+    margin: 45px auto 40px;
+  }
+
+  .bloc-titre-banniere, .bloc-texte-banniere{
+    text-align: center;
+    display: flex;
+    width: 50%;
+  }
+  .bloc-banniere div{
+    display: flex;
+    flex-flow: column;
+  }
+  
+  .bloc-texte-banniere p{
+    line-height: 20px;
+    padding:0 0 90px;
+  }
+
+  .bloc-banniere  div{
+    height: auto;
+  }
+
+
+
+  #sectionCours .container a{
+    width: 100%;
+    text-align: center
+  }
+
+  #sectionCours .container div{
+    /*height: 100px;*/
+    min-width: 100px;
+    width: 25%;
+
+    /*position: fixed;*/
+    height:80%;
+    
+  }
+
+
+
+ 
+  #sectionCours .container div{
+    margin: 20px 0;
+  }
+  
+  #sectionCours .container{
+    padding: 0;
+    height: 250px;
+  }
+
+  #sectionCours .container a{
+  text-decoration: none;
+  color: white;
+  padding: 30px 0;
+/*  width:200px;
+*/  /*min-width: 200px*/
+  }
+
+   #sectionActu{
+    display:none;
+  }
+  
+
+}
+
+@media (max-width: 425px) {
+
+  .container{
+    padding: 0;
+    margin:0;
+  }
+    #sectionCours{
+    padding: 0
+  }
+  
+   #sectionCours .container div{
+    height: 220px;
+    width: 100%;
+    margin:0;
+    max-width: none;
+    border-radius: 0px;
+  }
+    
+  #sectionCours .container a{
+  
+    width:100%
+  }
+    
+  #sectionCours .container a:hover{
+    transform: scale(1);
+  }
+
+ 
+
+}

@@ -1,34 +1,68 @@
+/*********************************
+
+          
+
+**********************************/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto' ,sans-serif;
+  font-family: 'Roboto-light' ,sans-serif;
 }
 
 .container{
   width: 100%;
   max-width: 1440px;
   margin: auto;
-  /*border-left:  1px solid red;
-  border-right : 1px solid red;*/
-  /*border: 0.5px solid*/
-  padding: 0 15px;
+  padding: 0 25px;
 }
 
+
+
+h1{
+  font-size: 45px;
+}
+
+h3{
+  font-size: 28px
+}
+
+section{
+    padding: 30px 0
+ }
 
 .majuscule{
   text-transform: uppercase;
 }
+
 .text-center{
   text-align: center
 }
 
+.img-adapte{
+  width: 100%;
+  height: inherit;
+}
+/**************************************
+
+            VERSION DESKTOP
+
+****************************************/
+
 header{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff
+
+}
+
+header .container{
   background: #fff;
   color: #231f20;
   display: flex;
-  justify-content: flex-end;
-  align-items: center
+  justify-content: space-between;
+  align-items: center;
 
 }
 #btn-menu{
@@ -42,7 +76,6 @@ header label{
 }
 
 .menu {
-  float: right;
   z-index: 1000;
 }
 
@@ -54,14 +87,14 @@ header label{
 
 .menu ul ul {
   display: none;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
 }
 
-.menu a.lien-contact{
-  padding-right: 0px  
-}
 .menu a {
   display: block;
-  padding: 15px;
+  padding: 25px 10px;
   color: #231f20;
   text-decoration: none;
   font-size: 14px
@@ -69,23 +102,24 @@ header label{
 
 .menu a:hover{
   background: rgba(0,0,0,0.3);
+  transition: all 0.3s
 }
 
 .menu ul li:hover ul{
   display: block;
   position:absolute;
-  z-index: 1000
+  z-index: 1000;
+  width: 150px;
 }
+
 .submenu-responsive{
   display: none
 }
 
-
-
 .bloc-logo-nav{
-  display: inline-block;
-  width: 175px;
-  margin-top: 14px;
+  display: flex;
+  width: 230px;
+  margin: 20px 0 12px;
 }
 
 .bloc-logo-nav a > img{
@@ -93,48 +127,96 @@ header label{
 }
 
 
+.logo-desktop{
+  display: inline;
+}
 
+.logo-tablette{
+  display: none
+}
 
-
-
-/*
-.menu a span{
+.logo-mobile{
   display: none;
 }
-*/
+
+
+.spacer{
+  height: 72px
+}
+
+
+/*********************************
+
+          VERSION TABLETTE
+
+**********************************/
+
+
+@media (max-width: 900px) {
+
+
+.logo-tablette{
+    display: inline;
+  }
+
+ .logo-desktop{
+    display: none;
+  }
+
+ 
+
+  .logo-mobile{
+    display: none;
+  }
+
+  .bloc-logo-nav {
+    display: flex;
+    width: 140px;
+    margin: 6px 0 0;
+  }
+
+
+  header .container{
+    padding: 0;
+/*    position: relative;
+*/  }
+
+}
 
 
 
 
 
-@media  (max-width: 768px) {
+
+@media (max-width: 768px) {
   body{
     overflow-x : hidden;
   }
 
-  .container{
-    width: 100%;
-    max-width: 1024px;
-    margin: auto;
-    
-  }
+  
+
+ /* .bloc-logo-nav {
+    width: 126px;
+    margin: 6px 0 0px;
+  }*/
 
   header label{
-    display: inline-block;
-    float:right ;
+    display: block;
+    position: absolute;
+    right: 15px
   }
 
-  
+ 
 
   .menu {
     position: absolute;
-    top:40px;
-    left: 0;
+    top:72px;
+    left: 100%;
     width: 100%;
-    transform: translateX(100%);
+    transform: translateX(-100%);
     transition: all 0.3s;
+  }
 
-    }
   .menu ul {
     display: block;
     background: #555;
@@ -143,38 +225,63 @@ header label{
   .menu ul li:hover ul{
     display: none;
     position: static;
+    width: 100%
   }
   
   .menu a{
     position: relative;
+    color: #fff;
+    padding: 20px 10px;
   }
-  /*.menu a span{
-    display: block;
-    position: absolute;
-    right: 5px;
-    top: 15px;
-  }*/
-
+  
   #btn-menu:checked ~ .menu{
     transform: translateX(0%);
   }
-  
-  
+    
   .menu ul ul{
     background: rgba(0,0,0,0.4);
   }
 
   .menu ul ul a{
-    padding: 15px 40px;
+    padding: 12px 40px;
   }
   
   .submenu-responsive{
     display: block;
   }
+
   .submenu{
     display: none
   }
 
+}
 
+
+/*********************************
+
+          VERSION MOBILE
+
+**********************************/
+
+
+@media (max-width: 425px) {
+
+  .bloc-logo-nav{
+    margin:auto;
+    width: 66px;
+    padding: 10px;  
+  }
+  .logo-tablette{
+    display: none;
+  }
+    .logo-mobile{
+    display: block;
+  }
+  
+  .menu a{
+    position: relative;
+    color: #fff;
+    padding: 15px 10px;
+  }
 
 }

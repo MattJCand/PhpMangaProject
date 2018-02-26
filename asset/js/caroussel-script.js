@@ -1,11 +1,11 @@
 $('.fade').slick({
 	dots: true,
 	infinite: true,
-	speed: 500,
+	speed: 1000,
 	fade: true,
 	cssEase: 'linear',
 	autoplay: true,
-	autoplaySpeed: 1000,
+	autoplaySpeed: 2000,
 	pauseOnFocus: false,
 	arrows: false
 
@@ -13,32 +13,36 @@ $('.fade').slick({
 
 
 $('.responsive').slick({
-  dots: true,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 4,
+  infinite: true,
+  speed: 600,
+  arrows: false,
+  slidesToShow: 8,
   slidesToScroll: 1,
+  cssEase: 'linear',
+  autoplaySpeed: 4000,
+  pauseOnFocus: false,
+  autoplay: true,
   responsive: [
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 8,
+        slidesToScroll: 1,
         infinite: true,
-        dots: true
+        
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 6,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 425,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
         slidesToScroll: 1
       }
     }
