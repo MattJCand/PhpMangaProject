@@ -1,11 +1,11 @@
 
 <?php include "templates/header.php"; ?>
 <main>
-  <h1 class="text-center">Actualité</h1>
+  <h1 class="text-center majuscule">Actualité</h1>
 
   
 <div class="container">
-  
+
       <div class="bloc-actu">
         <div class="bloc-img-actu">
           <img class="img-adapte" src="asset/img/wonderwoman.png" alt="ww">
