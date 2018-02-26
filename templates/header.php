@@ -64,8 +64,8 @@
 					</li>
 
 				
-					<li class="submenu-responsive"><a href="#">Actualités</a></li>
-					<li class="submenu-responsive"><a href="#">Presse</a>
+					<li class="submenu-responsive"><a href="actu.php">Actualités</a></li>
+					<li class="submenu-responsive"><a href="new.php">Presse</a>
 					<li class="submenu"><a href="actu.php">Actualités</a>
 						<ul>
 							<li><a href="new.php">Presse</a></li>

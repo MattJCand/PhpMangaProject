@@ -71,33 +71,28 @@
 <section id="sectionCarteMembre">
  <div class="container">
    <div class="bloc-membre-img">
-     <img class="img-adapte" src="asset/img/id-card.png" alt="id-card">
+     <img class="img-adapte" src="asset/img/mascotte.png" alt="id-card">
    </div>
    <div class="bloc-membre-text">
-    <h4>Les avantages de la carte prépayée</h4>
-    <p>
-      Un tarif avantageux (-10% sur le prix des cours)<br>
-      Des tarifs réduits à tous les événements spéciaux de Planète Manga (week-end accélérés, masterclass…)<br>-
-      * La possibilité de réserver un créneau horaire 
-      Des avantages et des réductions avec nos partenaires (voir liste ci-dessous)
-    </p>
+      <h2 class="majuscule text-center">Carte Membre</h2>
+      <h3 class="text-center">De nombreux avantages et réductions avec nos partenaires !!!</h3>
      
    </div>
  </div>
 </section>
 
- <section id="sectionActu" >
+ <!-- <section id="sectionActu" >
   <div class="container">
     <h2 class="majuscule">Réseaux Sociaux</h2>
-    <!-- <div id="">
-      <div id="fb-root"></div>
-      <div class="fb-page" data-href="https://www.facebook.com/planete.manga.muret/" data-tabs="timeline" data-width=500 data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/planete.manga.muret/" class="fb-xfbml-parse-ignore">
+      <div id="">
+        <div id="fb-root"></div>
+        <div class="fb-page" data-href="https://www.facebook.com/planete.manga.muret/" data-tabs="timeline" data-width=500 data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/planete.manga.muret/" class="fb-xfbml-parse-ignore">
 
-      <a href="https://www.facebook.com/planete.manga.muret/">Planète Manga</a></blockquote>
+        <a href="https://www.facebook.com/planete.manga.muret/">Planète Manga</a></blockquote>
+        </div>
       </div>
-    </div> -->
   </div>
-</section>
+</section> -->
 
 <section id="sectionPartenaire">
   <div class="container text-center">

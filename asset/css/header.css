@@ -20,11 +20,19 @@
 
 
 h1{
+  margin-top: 20px;
   font-size: 45px;
 }
 
 h3{
-  font-size: 28px
+  font-size: 28px;
+}
+h4{
+  font-size: 20px
+}
+
+h1,h2,h3,h4{
+  font-weight: normal
 }
 
 section{
@@ -53,7 +61,10 @@ header{
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background-color: #fff
+  background-color: #fff;
+  -webkit-box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.26);
+  -moz-box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.26);
+  box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.26);
 
 }
 
@@ -154,6 +165,23 @@ header label{
 
 
 @media (max-width: 900px) {
+
+
+h1{
+  margin-top: 10px;
+  font-size: 35px;
+}
+
+h3{
+  font-size: 20px;
+}
+h4{
+  font-size: 18px
+}
+
+section{
+    padding: 10px 0
+ }
 
 
 .logo-tablette{
@@ -266,6 +294,18 @@ header label{
 
 
 @media (max-width: 425px) {
+
+  h1{
+    font-size: 35px
+  }
+
+  h2{
+    margin-bottom: 10px
+  }
+  
+
+
+  
 
   .bloc-logo-nav{
     margin:auto;

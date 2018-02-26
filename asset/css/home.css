@@ -69,6 +69,7 @@
 }
 
 .bloc-titre-banniere h1{
+  margin-top: 0;
   font-size: 50px
 }
 
@@ -93,9 +94,10 @@
 }
 
 #sectionCours .container div{
-  height: 200px;
-  width: 200px;
-  margin: 50px 0;
+  height: 180px;
+  width: 25%;
+  min-width: 250px; 
+  margin: 30px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -141,15 +143,9 @@
 /* sectionCarteMembre */
 
 #sectionCarteMembre{
-  /*height: 300px;*/
- /* 
-  background: -moz-linear-gradient(left, #ca3342 0%, #b12742 100%); 
-  background: -webkit-linear-gradient(left, #ca3342 0%,#b12742 100%);  
-  background: linear-gradient(to right, #ca3342 0%,#b12742 100%); 
-  */
-  background-color: #333333;
-/*  padding: 30px 0;
-*/  color: #fff;
+ 
+  background-color: #c93342;
+  color: #fff;
 }
 
 #sectionCarteMembre .container{
@@ -163,9 +159,13 @@
   width: 20%
 }
 #sectionCarteMembre .container .bloc-membre-text{
-  width: 60%;
+  width: 76%;
 }
 
+#sectionCarteMembre .container .bloc-membre-text h2{
+  font-size: 80px;
+    margin:0;
+}
 /**********************/
 
 
@@ -228,6 +228,32 @@
       VERSION TABLETTE
 
 ****************************/
+@media (max-width: 900px) {
+
+
+  #sectionCours .container div{
+    height: 145px;
+    min-width: 200px; 
+  }
+
+  #sectionCarteMembre .container .bloc-membre-text h2{
+    font-size: 45px;
+    margin: 0
+  }
+  #sectionCarteMembre .container .bloc-membre-img {
+      width: 30%;
+  }
+  #sectionCarteMembre .container {
+    
+      flex-flow: column;
+  }
+  #sectionCarteMembre .container .bloc-membre-text {
+    width: 100%;
+}
+}
+
+
+
 
 @media (max-width: 768px) {
   
@@ -250,7 +276,7 @@
   }
   
   .bloc-titre-banniere h1{
-    margin: 45px auto 40px;
+    margin: 30px auto;
   }
 
   .bloc-titre-banniere, .bloc-texte-banniere{
@@ -265,7 +291,7 @@
   
   .bloc-texte-banniere p{
     line-height: 20px;
-    padding:0 0 90px;
+    padding:0 0 50px;
   }
 
   .bloc-banniere  div{
@@ -281,13 +307,8 @@
   }
 
   #sectionCours .container div{
-    /*height: 100px;*/
-    min-width: 100px;
-    width: 25%;
-
-    /*position: fixed;*/
-    height:80%;
-    
+    height: 115px;
+    min-width: 150px; 
   }
 
 
@@ -299,7 +320,6 @@
   
   #sectionCours .container{
     padding: 0;
-    height: 250px;
   }
 
   #sectionCours .container a{
@@ -313,26 +333,39 @@
    #sectionActu{
     display:none;
   }
-  
 
+  #sectionCarteMembre .container .bloc-membre-img {
+      width: 33%;
+  }
+
+
+}
+
+
+@media (max-width: 550px) {
+  #sectionCours .container{
+    flex-flow: column;
+  }
+
+   #sectionCours .container div{
+    height: 100px;
+    width: 80%;
+    margin: 5px auto;
+    max-width: none;
+    border-radius: 0px;
+  }
 }
 
 @media (max-width: 425px) {
 
-  .container{
-    padding: 0;
-    margin:0;
-  }
+ 
     #sectionCours{
     padding: 0
   }
   
    #sectionCours .container div{
-    height: 220px;
+    margin: 0;
     width: 100%;
-    margin:0;
-    max-width: none;
-    border-radius: 0px;
   }
     
   #sectionCours .container a{
@@ -344,6 +377,8 @@
     transform: scale(1);
   }
 
- 
+ #sectionCarteMembre .container .bloc-membre-img{
+  width: 60%
+}
 
 }

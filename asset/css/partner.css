@@ -1,100 +1,102 @@
 *{
   box-sizing: border-box;
 }
-.bloc-partner{
-  display: flex;
-  /*justify-content: space-between;*/
-  justify-content: center;
-  /*background-color: #cecece;*/
+.bloc-partenaire-page{
+ 
   /*border-bottom: 5px solid #d52a2c;*/
   margin: 50px 0;
   clear: both;
+  display: flex;
+  justify-content: center;
   
 }
 
-/*.bloc-img-partner{
-  float: left;
-  margin:auto;
-}*/
-
-.bloc-img-partner {
- 
- 
+.bloc-img-partenaire-page{
+  width: 20%;
 }
-.bloc-img-partner img{
+
+.bloc-img-partenaire-page img{
   display: block;
-  max-width: 200px;
-  /*margin:15px auto;*/
-
+  max-width: 208px;
+  min-width: 160px;
+  margin:auto;
 }
 
-.bloc-description-partner{
-	width: 30%;
-  padding: 20px 15px 10px 5px;
-  float: left;
-  /*position: relative;*/
-  display: flex;
-  align-items: center
-
+.bloc-description-partenaire-page{
+  width: 31%;
+  padding: 30px 20px;
+  position: relative;
+  margin: 0 20px
 
 }
 .clear{clear: both;}
 
-.bloc-description-partner h4{
+.bloc-description-partenaire-page h4{
   margin-bottom: 10px;
+  font-size: 28px
   /*font-weight: normal*/
 }
 
-.bloc-description-partner p.date-partner{
-  margin-top: 50px;
-  float: right;   
-}
 
 
 
 
 
 
-/************************
-
-
-
-*************************/
-
-
-
-@media (max-width: 1050px) {
-  .bloc-img-partner{
-  width: 30%;
-  float: left;
-  margin:auto;
-}
-}
 
 @media (max-width: 900px) {
- 
+	 .bloc-partenaire-page{
+	 	  margin: 20px 0; 
+	 	  flex-direction: column;
+	}
 
+	.bloc-img-partenaire-page{
+	  width: 50%;
+	}
   
-  .bloc-partner{
+  .bloc-partenaire-page{
     padding: 10px 0;
   }
-  .bloc-img-partner, .bloc-description-partner{
-    float: none;  
-  
+  .bloc-img-partenaire-page, .bloc-description-partenaire-page{
+    margin:auto;
   }
     
-  .bloc-description-partner{
+  .bloc-description-partenaire-page{
     padding: 20px 15px;
     width: 100%
   }
 
-  .bloc-description-partner h4{
+  .bloc-description-partenaire-page h4{
       text-align: center;
   }
 
-  .bloc-description-partner p.date-partner{
-  margin-top: 25px;
-     
-}
+  .bloc-description-partenaire-page p{
+	text-align: center     
+  }
+  .bloc-description-partenaire-page h4{
+	  margin-bottom: 10px;
+	  font-size: 20px
+	  /*font-weight: normal*/
+	}
 }
 
+
+
+@media (max-width: 425px) {
+  
+  #sectionpartenaire-page .container{
+    padding: 0
+  }
+  .bloc-description-partenaire-page{
+    padding: 10px 0;
+    width: 100%
+  }
+  .bloc-img-partenaire-page{
+	  width: 100%;
+	}
+	.bloc-img-partenaire-page img{
+	 max-width: 75%
+	}
+
+
+}

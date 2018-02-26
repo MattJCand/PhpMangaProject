@@ -1,7 +1,7 @@
 
 <?php include "templates/header.php"; ?>
 
-<section id="banniereCours">
+<section id="banniereCours" class="banniere-cours-manga">
     <h1 class="majuscule">Manga</h1>
 </section>
 

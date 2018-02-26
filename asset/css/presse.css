@@ -2,9 +2,7 @@
   box-sizing: border-box;
 }
 .bloc-presse{
-  /*display: flex;*/
-  /*justify-content: space-between;*/
-  /*justify-content: center;*/
+  
   background-color: #cecece;
   border-bottom: 5px solid #d52a2c;
   margin: 50px 0;
@@ -20,13 +18,12 @@
 
 .bloc-img-presse img{
   display: block;
-  max-width: 250px;
-  /*margin:15px auto;*/
+  max-width: 260px;
 }
 
 .bloc-description-presse{
   width: 70%;
-  padding: 20px 15px 10px 5px;
+  padding: 30px 15px 10px 5px;
   float: left;
   position: relative;
 
@@ -36,7 +33,6 @@
 
 .bloc-description-presse h4{
   margin-bottom: 10px;
-  /*font-weight: normal*/
 }
 
 .bloc-description-presse p.date-presse{
@@ -89,6 +85,16 @@
   .bloc-description-presse p.date-presse{
   margin-top: 25px;
      
-}
+  }
+
 }
 
+
+
+@media (max-width: 425px) {
+  
+  #sectionPresse .container{
+    padding: 0
+  }
+
+}
