@@ -23,7 +23,7 @@
 
 			<div class="footer-bloc-mlsig">
 				<div class="mentions" >
-					<a class="" href="">
+					<a class="" href="" target="blank">
 						Mentions Légales
 					</a>
 				</div>

@@ -22,20 +22,21 @@ h2{
   background-repeat: no-repeat;
 }
 .banniere-cours-manga{
-  background: url('../img/ban5.jpg');
+  background: url('../img/ban-manga3.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .banniere-cours-dessin{
-  background: url('../img/ban6.jpg');
+  background: url('../img/ban1.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 #banniereCours  h1{
-  font-size: 45px
+  font-size: 45px;
+  margin:0;
 }
 
 
@@ -52,14 +53,13 @@ h2{
   /*border: 1px solid;*/
 }
 #sectionDescriptionCours .bloc-description-partie img{
-  width: 100px;
+  width: 120px;
   /*border: 1px solid;*/
 }
 
 
 #sectionDescriptionCours .bloc-description-partie p{
   margin-top: 20px;
-  text-align: justify
 }
 
 
@@ -91,11 +91,12 @@ h2{
 }
 
 #sectionHoraireCours .bloc-horaire .bloc-horaire-partie img{
-  margin: 30px 0
+  margin: 30px 0;
+  width: 120px
 }
 
 #sectionHoraireCours .bloc-horaire .bloc-horaire-partie p{
-  margin-bottom: 30px
+  margin-bottom: 15px
 }
 }
 

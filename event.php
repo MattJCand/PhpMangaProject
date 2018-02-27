@@ -6,7 +6,7 @@
 <main>
 <div class="container">
 	
-		<h1>Evenement</h1>
+		<h1 class="majuscule text-center">Evenement</h1>
 
 </div>
 

@@ -1,6 +1,4 @@
-.bold{
-  font-weight: bolder;
-}
+
 footer{
 	padding: 40px 0 10px;
 	width: 100%;
@@ -100,13 +98,20 @@ footer .footer-bloc-mlsig .signature{
 
 ******************************/
 @media (max-width: 768px) {
+	footer{
+		padding: 25px 0 10px;
+	
+	}
 
-footer .footer-adresse-desktop{
+	footer .footer-adresse-desktop{
 		display: none
 	}
-footer .footer-adresse-tablette{
+	footer .footer-adresse-tablette{
 		display: block;
 		text-align: center
+	}
+	.footer-bloc-ml {
+    	margin-top: 20px;
 	}
 	
 }
@@ -117,7 +122,10 @@ footer .footer-adresse-tablette{
 
 /*Version Mobile*/
 @media (max-width: 425px) {
-
+	footer{
+		padding: 15px 0 10px;
+	
+	}
 	footer .container .footer-bloc-mlsig{
 		margin-top: 30px;
 		display: block;
