@@ -19,6 +19,8 @@
 
 .slick-dots {
     bottom: 15px;
+    display: none;
+
 }
 
 .slick-dots li button:before {

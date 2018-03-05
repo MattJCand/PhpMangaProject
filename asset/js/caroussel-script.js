@@ -1,5 +1,5 @@
 $('.fade').slick({
-	dots: true,
+	dots: false,
 	infinite: true,
 	speed: 1000,
 	fade: true,

@@ -57,7 +57,7 @@
 
 
 
-@media (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
   .bloc-img-actu{
   width: 30%;
   float: left;
@@ -65,7 +65,7 @@
 }
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
  
 
   

@@ -57,7 +57,7 @@
         <img src="asset/img/malou.png" alt="malou" class="img-adapte">
       </div>
       <div class="description-professeur">
-        <h3 class="majuscule text-droite angry">ANGRY PANDA</h3>
+        <h3 class="majuscule angry">ANGRY PANDA</h3>
         <p>
           Diplômée de l'IPESAA à Montpellier, elle obtient le 1er prix de dessin en cours analytique et dispense depuis 2 ans des cours de dessin à tous niveaux et à tout âge.
         </p>

@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Planète Manga</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
 	<!-- Slick -->
 	<link rel="stylesheet" type="text/css" href="asset/slick/slick.css"/>
@@ -23,7 +23,7 @@
 				</a>
 			</div>
 	<!-- 		<div class="btn-menu-block">	 -->	
-	 			<input type="checkbox" id="btn-menu" checked>
+	 			<input type="checkbox" id="btn-menu" >
 				<label for="btn-menu" >&#9776;</label>
 			<!-- </div> -->
 			<nav class="menu majuscule">
@@ -45,10 +45,18 @@
 					</li>
 					<li class="submenu-responsive"><a href="#">Cours</a>
 						<ul>
-							<li><a href="manga.php">Manga</a></li>
-							<li><a href="draw.php">Dessin</a></li>
-							<li><a href="japan.php">Japonais</a></li>
-							<li><a href="member.php">la carte membre</a></li>
+							<li>
+								<a href="manga.php">Manga</a>
+							</li>
+							<li>
+								<a href="draw.php">Dessin</a>
+							</li>
+							<li>
+								<a href="japan.php">Japonais</a>
+							</li>
+							<li>
+								<a href="member.php">carte membre</a>
+							</li>
 						</ul>
 					</li>
 					<li class="submenu">

@@ -1,0 +1,83 @@
+.bloc-description-membre ul{
+	margin:20px 15px;
+}
+
+.bloc-description-membre ul li{
+	margin:10px 0;
+}
+
+.bloc-description-membre ul li a{
+	text-decoration: none;
+	color: #ca3342	
+}
+
+
+.bloc-tarif-abonnement{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px
+}
+
+.bloc-tarif-abo-partie{
+	width: 50%;
+	background: #eeeeee;
+}
+
+
+.abo-enfant{
+	background: #ca3342
+}
+
+.abo-adulte{
+	background: #967878
+}
+
+
+.bloc-prix{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	color: #fff
+}
+.bloc-prix h2{
+	margin: 0;
+}
+
+.bloc-prix .abo{
+	font-size: 12px
+}
+
+.bloc-prix .separateur{
+	margin: 0 20px;
+}
+.bloc-prix .prix{
+	font-size: 20px;
+	font-weight: bolder
+}
+
+.bloc-carte-info-enfant{
+	color: #ca3342;
+	
+}
+
+.bloc-carte-info-adulte{
+	color: #967878
+
+}
+
+.bloc-info-carte{
+	margin: 15px 60px;
+
+}
+
+
+@media screen and (max-width: 768px) {
+	.bloc-tarif-abonnement{
+		flex-flow: column;
+	}
+	.bloc-tarif-abo-partie{
+		width: 100%;
+	}
+
+}
