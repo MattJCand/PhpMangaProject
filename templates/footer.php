@@ -48,10 +48,16 @@
 	<script  src="http://code.jquery.com/jquery-3.3.1.js">	</script>
 
 	<script type="text/javascript" src="asset/slick/slick.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/additional-methods.min.js"></script>
 	
 	<script type="text/javascript" src="asset/js/script.js"></script>
 
 	<script type="text/javascript" src="asset/js/caroussel-script.js"></script>
+	
+    <script type="text/javascript" src="asset/js/mail_ajax.js"></script>
 			
 	
 	<!-- ***** -->
