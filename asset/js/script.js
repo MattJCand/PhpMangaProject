@@ -1,11 +1,16 @@
 
 // Menu slide
 $('.submenu-responsive').click(function(){
+	
 			$(this).children("ul").slideToggle();
+
 })
 $('ul').click(function(p){
-	p.stopPropagation()
+	p.stopPropagation();
+
 })
+
+
 
 // FACEBOOK
 

@@ -97,16 +97,27 @@
 <section id="sectionPartenaire">
   <div class="container text-center">
     <h2 class="majuscule">Nos partenaires</h2>
-    <div class="responsive">
-        <div class="bloc-partenaire">
-          <img src="asset/img/logo_pika.png" alt="">
+    <div class="variable-width">
+
+        <a href=""><div class="bloc-partenaire">
+          
+            <img class="img-adapte" src="asset/img/logo_pika.png" alt="">
+          
         </div>
-        <div class="bloc-partenaire">
-          <img src="asset/img/logo-kaze.png" alt="">
+        </a>
+         <a href=""><div class="bloc-partenaire">
+         
+            <img class="img-adapte" src="asset/img/logo-kaze.png" alt="">
+         
         </div>
+         </a>
+          <a href="">
         <div class="bloc-partenaire">
-          <img src="asset/img/glenat_logo.png" alt="">
+         
+            <img class="img-adapte" src="asset/img/glenat_logo.png" alt="">
+       
         </div>
+           </a>
         
      
      

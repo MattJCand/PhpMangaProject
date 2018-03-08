@@ -35,7 +35,7 @@
   <div class="container">
     <div class="bloc-professeur">
       <div class="bloc-img-prof">
-        <img src="asset/img/anthony.png" alt="anthony" class="img-adapte">
+        <img src="asset/img/professeur/anthony.png" alt="anthony" class="img-adapte">
       </div>
       <div class="description-professeur">
         <h3 class="majuscule antho">ANTHONY PREZMAN</h3>
@@ -54,7 +54,7 @@
     </div>
     <div class="bloc-professeur">
       <div class="bloc-img-prof">
-        <img src="asset/img/malou.png" alt="malou" class="img-adapte">
+        <img src="asset/img/professeur/malou.png" alt="malou" class="img-adapte">
       </div>
       <div class="description-professeur">
         <h3 class="majuscule angry">ANGRY PANDA</h3>

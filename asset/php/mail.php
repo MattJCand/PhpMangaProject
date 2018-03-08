@@ -12,6 +12,7 @@
             /*A MODIFIER selon le souhait du client*/
 
             // $destinataire ='lynce.972@gmail.com';
+            // $destinataire ='melissa.k@outlook.fr';
             $destinataire ='feinglong@gmail.com';
         
             /*-------------------------------------*/
@@ -23,31 +24,30 @@
             $message = htmlentities($message);
 
 
-            $expediteur.=$nom;
-            $expediteur.=$prenom;
+            $expediteur.=$nom.' '.$prenom;
 
             // $sujet= 'Planète Manga | Nouveau Message';
             $sujet='Planète Manga | '.htmlentities($sujet);
 
 
-            $message = '
-             <html>
-              <head>
-               <title></title>
-              </head>
-              <body>
-              <p>'.$message.'</p>
-              </body>
-             </html>
-             ';
-
+            // $message = '
+            //  <html>
+            //   <head>
+            //    <title></title>
+            //   </head>
+            //   <body>
+            //   <p>'.$message.'</p>
+            //   </body>
+            //  </html>
+            //  ';
 
 
         $headers  = 'MIME-Version: 1.0' . "\n"; // Version MIME OK!
         $headers .= 'Content-type: text/html; charset=UTF-8'."\r\n"; // l'en-tete Content-type pour le format HTML< OK!
         $headers .= 'Reply-To: <'.$email.">\n"; // Mail de reponse OK!!
-        // $headers .= 'From: <'.$email.'>'."\n"; // Expediteur
-        $headers .= 'From: '.$email."\n"; // Expediteur
+        $headers .= 'From: '.$expediteur.' <'.$email.'>'."\n"; // Expediteur
+        // $headers .= "From: $from \n"; // Expediteur
+        // $headers .= 'From: Feinglong VANG FOUA'."\n"; // Expediteur
 
         if(mail($destinataire,$sujet,$message,$headers))
             {

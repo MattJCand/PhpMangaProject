@@ -1,0 +1,186 @@
+@media screen and (max-width: 425px) {
+	*{
+  
+ 	 font-size: 14px
+	}
+	h1{
+	    font-size: 35px
+	}
+
+	h2{
+	    font-size: 20px;
+	    margin-bottom: 10px
+	}
+  
+
+/************************
+
+		HEADER.PHP
+
+*************************/
+
+	.bloc-logo-nav{
+		margin:auto;
+		width: 66px;
+		padding: 10px;  
+	}
+	.logo-tablette{
+		display: none;
+	}
+	.logo-mobile{
+		display: block;
+	}
+
+	.menu a{
+		position: relative;
+		color: #fff;
+		padding: 15px 10px;
+	}
+
+
+/************************
+
+		FOOTER.PHP
+
+*************************/
+	footer{
+		padding: 15px 0 10px;
+
+	}
+	footer .container .footer-bloc-mlsig{
+		margin-top: 30px;
+		display: block;
+		text-align: center
+	}
+
+	footer .container .footer-bloc-mlsig div{
+		width: 100%
+	}
+
+	footer .footer-bloc-mlsig .signature{
+		text-align: center;
+		margin-top: 20px
+	}
+
+
+/************************
+
+		INDEX.PHP
+
+*************************/
+
+	#sectionCours{
+		padding: 0
+	}
+
+	#sectionCours .container div{
+		margin: 0;
+		width: 100%;
+	}
+
+	#sectionCours .container a{
+		width:100%
+	}
+
+	#sectionCours .container a:hover{
+		transform: scale(1);
+	}
+
+	#sectionCarteMembre .container .bloc-membre-img{
+		width: 60%
+	}
+
+/************************
+
+	GALERIE.PHP
+
+*************************/
+
+/************************
+
+	ABOUT.PHP
+
+*************************/
+
+/************************
+
+	PARTNER.PHP
+
+*************************/
+ 
+	#sectionpartenaire-page .container{
+		padding: 0
+	}
+	.bloc-description-partenaire-page{
+		padding: 10px 0;
+		width: 100%
+	}
+	.bloc-img-partenaire-page{
+		width: 100%;
+	}
+	.bloc-img-partenaire-page img{
+		max-width: 75%
+	}
+
+/************************
+
+	MANGA.PHP
+
+*************************/
+
+/************************
+
+	DRAW.PHP
+
+*************************/
+
+/************************
+
+	JAPAN.PHP
+
+*************************/
+
+/************************
+
+	MEMBER.PHP
+
+*************************/
+
+
+/************************
+
+	ACTU.PHP
+
+*************************/
+
+/************************
+
+	PRESSE.PHP
+
+*************************/
+
+	#sectionPresse .container{
+	    padding: 0
+	}
+
+/************************
+
+	EVENT.PHP
+
+*************************/
+
+/************************
+
+	CONTACT.PHP
+
+*************************/
+
+
+
+
+
+
+
+
+
+}

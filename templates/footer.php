@@ -3,9 +3,15 @@
 
 			
 			<div class="footer-bloc-rs">
-				<a href=""><img class="img-adapte" src="asset/img/facebook.png" alt="facebook"></a>
-				<a href=""><img class="img-adapte" src="asset/img/twitter.png" alt="twitter"></a>
-				<a href=""><img class="img-adapte" src="asset/img/instagram.png" alt="instagram"></a>		
+				<a href="https://www.facebook.com/planete.manga.muret/" target="blank">
+					<img class="img-adapte" src="asset/img/reseaux_sociaux/fb.png" alt="facebook">
+				</a>
+				<a href="" target="blank">
+					<img class="img-adapte" src="asset/img/reseaux_sociaux/twitter.png" alt="twitter">
+				</a>
+				<a href="" target="blank">
+					<img class="img-adapte" src="asset/img/reseaux_sociaux/insta.png" alt="instagram">
+				</a>		
 			</div>
 			
 			<div class="footer-bloc-ml">			
@@ -45,6 +51,7 @@
 
 	
 	<script src="asset/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+
 	<script  src="http://code.jquery.com/jquery-3.3.1.js">	</script>
 
 	<script type="text/javascript" src="asset/slick/slick.min.js"></script>
