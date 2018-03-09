@@ -1,9 +1,10 @@
 
 <?php include "templates/header.php"; ?>
+    <h1 class="text-center majuscule">Presse</h1>
 
-  <h1 class="text-center majuscule">Presse</h1>
 
 <main>
+
   <section id="sectionPresse">
     <div class="container">
         <div class="bloc-presse">

@@ -75,7 +75,7 @@
    </div>
    <div class="bloc-membre-text">
       <h2 class="majuscule text-center">Carte Membre</h2>
-      <h3 class="text-center">De nombreux avantages et réductions avec nos partenaires !!!</h3>
+      <h3 class="text-center">De nombreux avantages et réductions avec nos partenaires</h3>
      
    </div>
  </div>
@@ -101,23 +101,17 @@
 
         <a href=""><div class="bloc-partenaire">
           
-            <img class="img-adapte" src="asset/img/logo_pika.png" alt="">
+            <img class="img-adapte" src="asset/img/partenaire/librairie_biffure.svg" alt="">
           
         </div>
         </a>
          <a href=""><div class="bloc-partenaire">
          
-            <img class="img-adapte" src="asset/img/logo-kaze.png" alt="">
+            <img class="img-adapte" src="asset/img/partenaire/lebambou.png" alt="">
          
         </div>
          </a>
-          <a href="">
-        <div class="bloc-partenaire">
-         
-            <img class="img-adapte" src="asset/img/glenat_logo.png" alt="">
-       
-        </div>
-           </a>
+        
         
      
      

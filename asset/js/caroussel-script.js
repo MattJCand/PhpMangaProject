@@ -67,7 +67,7 @@ $('.variable-width').slick({
   arrows: false,
   autoplay:true,
   autoplaySpeed: 2000,
-  slidesToShow: 1,
+  slidesToShow: 2,
   centerMode: true,
   variableWidth: true
 });

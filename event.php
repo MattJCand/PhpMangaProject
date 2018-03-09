@@ -1,6 +1,7 @@
 
 <?php include "templates/header.php"; ?>
 <main>
+  
   <h1 class="text-center majuscule">Evenement</h1>
 
   
