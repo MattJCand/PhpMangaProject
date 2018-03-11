@@ -1,5 +1,8 @@
+<?php include "templates/header.php"; 
+//Requete qui retourne toutes données d'une actualité
+$recherche_actu= $bdd->query("SELECT *, date_format(date_actu, '%d/%m/%Y') AS date_fr FROM actualite");
 
-<?php include "templates/header.php"; ?>
+?>
 <main>
   <h1 class="text-center majuscule">Actualité</h1>
 
@@ -53,7 +56,35 @@
         </div>
         
         <p class="clear"></p>
-      </div>
+      </div> 
+
+
+      <?php
+        while($actu= $recherche_actu->fetch(PDO::FETCH_ASSOC))
+          {
+      ?>
+          <div class="bloc-actu">
+            <div class="bloc-img-actu">
+              <img class="img-adapte" src="<?php htmlentities($actu['img_actualite']);  ?>" alt="<?php echo htmlentities($actu['titre']); ?>">
+            </div>
+            <div class="bloc-description-actu">
+              <h4>
+                <?php echo htmlentities($actu['titre']); ?>
+              </h4>
+              <?php 
+              $texte=htmlentities($actu['description']);
+              echo substr($texte, 0,350).'...'.'<a href="">En savoir plus</a></p>';
+              ?>
+
+              
+              <p class="date-actu"><?php echo htmlentities($actu['date_fr']); ?></p>
+            </div>
+            
+            <p class="clear"></p>
+          </div>
+      <?php
+          }
+      ?>
 
     
 

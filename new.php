@@ -1,6 +1,12 @@
+<?php
+include "templates/header.php";
+//Requete qui retourne toutes données d'une actualité
+$recherche_presse= $bdd->query("SELECT *, date_format(date_actu, '%d/%m/%Y') AS date_fr FROM presse");
+?>
+    
 
-<?php include "templates/header.php"; ?>
-    <h1 class="text-center majuscule">Presse</h1>
+
+<h1 class="text-center majuscule">Presse</h1>
 
 
 <main>
@@ -94,7 +100,13 @@
 
            
             ";
-            echo substr($texte, 0,350).'...'.'<a href="">En savoir plus</a></p>';
+            if(iconv_strlen($texte)>=350){
+              echo substr($texte, 0,350).'...'.'<a href="">En savoir plus</a></p>';
+            }
+            else{
+              echo $texte;
+            }
+
             ?>
 
             
@@ -103,6 +115,10 @@
           
           <p class="clear"></p>
         </div>   
+
+
+          
+
 
   </div>
 </section>

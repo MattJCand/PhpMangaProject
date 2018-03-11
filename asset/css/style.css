@@ -558,12 +558,21 @@ font-style: normal;
 	#equipe .container .bloc-professeur{
 		display: flex;
 		justify-content: space-around;
-		align-items: center
+		align-items: center;
+		margin: 25px 0;
 	}
 
 	#equipe h3{
 		font-size: 25px;
-		margin-bottom: 30px;
+	}
+
+	#equipe h4{
+
+	}
+	
+	#equipe .email-prof{
+		font-weight: normal;
+		margin-bottom: 20px;
 
 	}
 
@@ -580,13 +589,7 @@ font-style: normal;
 		font-weight: normal
 	}
 
-	.antho{
-		color: #957678;
-	}
-
-	.angry{
-		color: #eb1c16
-	}
+	
 
 /************************
 
@@ -627,6 +630,12 @@ font-style: normal;
 	.bloc-description-partenaire-page h4{
 		margin-bottom: 10px;
 		font-size: 28px
+	/*font-weight: normal*/
+	}
+
+
+	.bloc-description-partenaire-page .description-partenaire{
+		margin-bottom: 20px;
 	/*font-weight: normal*/
 	}
 

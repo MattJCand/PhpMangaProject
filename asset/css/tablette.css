@@ -47,7 +47,7 @@ header label{
 
   .menu {
     position: absolute;
-    top:66px;
+    top:64px;
     /*left: 100%;*/
     width: 100%;
     transform: translateY(-100%);

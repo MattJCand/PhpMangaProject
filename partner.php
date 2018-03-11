@@ -1,5 +1,7 @@
 
-<?php include "templates/header.php"; ?>
+<?php include "templates/header.php";
+
+$recherche_partenaire= $bdd->query("SELECT * FROM partenaire");?>
 
   <h1 class="text-center majuscule">Nos partenaires</h1>
 
@@ -11,7 +13,7 @@
 			Sur présentation de votre carte, voici les avantages obtenus :
 		</h4>
 
-        <div class="bloc-partenaire-page">
+      <!--   <div class="bloc-partenaire-page">
           <div class="bloc-img-partenaire-page">
             <img class="img-adapte" src="asset/img/partenaire1.png" alt="shonenjump">
           </div>
@@ -56,7 +58,39 @@
           </div>
           
           <p class="clear"></p>
-        </div> 
+        </div>  -->
+
+        <?php 
+    
+
+          while($part= $recherche_partenaire->fetch(PDO::FETCH_ASSOC))
+          {
+        ?>
+            
+            <div class="bloc-partenaire-page">
+              <div class="bloc-img-partenaire-page">
+                <img class="img-adapte" src="asset/img/partenaire3.png" alt="lemonde">
+              </div>
+              <div class="bloc-description-partenaire-page">
+                <h4>
+                  <?php echo htmlentities($part['nom'],ENT_QUOTES); ?>
+                </h4>
+                <p class="description-partenaire"><?php  echo htmlentities($part['description'],ENT_QUOTES); ?>
+                </p>
+
+                <a href="<?php  echo htmlentities($part['url'],ENT_QUOTES); ?>">Visiter leur site</a>
+                
+                
+              </div>
+              
+              <p class="clear"></p>
+            </div> 
+
+        <?php 
+          }
+
+        ?>
+
 
         
 
