@@ -76,23 +76,19 @@
    <div class="bloc-membre-text">
       <h2 class="majuscule text-center">Carte Membre</h2>
       <h3 class="text-center">De nombreux avantages et réductions avec nos partenaires</h3>
-     
+
    </div>
  </div>
 </section>
 
- <!-- <section id="sectionActu" >
+ <section id="sectionActu" >
   <div class="container">
     <h2 class="majuscule">Réseaux Sociaux</h2>
       <div id="">
-        <div id="fb-root"></div>
-        <div class="fb-page" data-href="https://www.facebook.com/planete.manga.muret/" data-tabs="timeline" data-width=500 data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/planete.manga.muret/" class="fb-xfbml-parse-ignore">
-
-        <a href="https://www.facebook.com/planete.manga.muret/">Planète Manga</a></blockquote>
-        </div>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fplanete.manga.muret%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=1289751307812396" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
       </div>
   </div>
-</section> -->
+</section>
 
 <section id="sectionPartenaire">
   <div class="container text-center">
@@ -100,21 +96,21 @@
     <div class="variable-width">
 
         <a href=""><div class="bloc-partenaire">
-          
+
             <img class="img-adapte" src="asset/img/partenaire/librairie_biffure.svg" alt="">
-          
+
         </div>
         </a>
          <a href=""><div class="bloc-partenaire">
-         
+
             <img class="img-adapte" src="asset/img/partenaire/lebambou.png" alt="">
-         
+
         </div>
          </a>
-        
-        
-     
-     
+
+
+
+
     </div>
   </div>
 </section>
