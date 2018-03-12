@@ -6,7 +6,7 @@
 
 	<section id="sectionContact">
 		<div class="container">
-			
+
 				<div class="accessibilite">
 					<div class="bloc-acces">
 						<img src="asset/img/pointmap.png" alt="">
@@ -25,20 +25,19 @@
 							<h3>Horaire d'ouverture</h3>
 							<p>
 								Lundi-Vendredi 14h-20h
-							</p>	
+							</p>
 							<p>						Samedi-Dimanche fermé
 							</p>
 						</div>
-						
+
 					</div>
 				</div>
 
 
-				<div class="map">
-				</div>
+				<div id="map" style="width:100%;height:400px;"></div>
 
 
-				
+
 		</div>
 	</section>
 
@@ -54,16 +53,16 @@
 
 					<label for="prenom">Prénom</label>
 					<input type="text" name="prenom" id="prenom">
-					
+
 					<label for="email">E-mail</label>
 					<input type="text" name="email" id="email">
-					
+
 					<label for="sujet">Sujet</label>
 					<input type="text" name="sujet" id="sujet">
-					
+
 					<label for="message">Message</label>
 					<textarea name="message" id="message" cols="30" rows="10"></textarea>
-					
+
 					<!-- <button name="envoyer" value="envoyer" class="majuscule envoyer-btn">Envoyer</button> -->
 
 					<button class="majuscule envoyer-btn" type="submit"  name="envoyer" id="envoyer">Envoyer</button>
@@ -79,5 +78,7 @@
 
 </main>
 
-
 <?php include "templates/footer.php"; ?>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANDWEGS_p_zpNWoDl40-icdcfTuHI0D0k&callback=initMap">
+</script>
